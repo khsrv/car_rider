@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227291038045",
+    "firebase_url": "https://taxi-mobile-app-d507f-default-rtdb.firebaseio.com",
+    "project_id": "taxi-mobile-app-d507f",
+    "storage_bucket": "taxi-mobile-app-d507f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227291038045:android:5c598845cf39eee7b128b4",
+        "android_client_info": {
+          "package_name": "com.example.car_rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227291038045-9b3g89mfcko8jodsfr8pfem0s0stpv8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpm7rwBIwVion-_nqDhngy3jZHw0TxKlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227291038045-9b3g89mfcko8jodsfr8pfem0s0stpv8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
