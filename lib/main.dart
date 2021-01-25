@@ -1,3 +1,6 @@
+import 'package:car_rider/screens/Registration_screen.dart';
+import 'package:car_rider/screens/login_screen.dart';
+import 'package:car_rider/screens/login_screen.dart';
 import 'package:car_rider/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -35,10 +38,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Montserrat-Medium',
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      initialRoute: LoginScreen.id,
+      routes: {
+        RegistrationScreen.id: (context)=>RegistrationScreen(),
+        LoginScreen.id: (context)=> LoginScreen(),
+        HomePage.id: (context)=> HomePage()
+      } ,
     );
   }
 }

@@ -2,11 +2,14 @@ import 'package:firebase_database/firebase_database.dart';
 import "package:flutter/material.dart";
 
 class HomePage extends StatefulWidget {
+  static const String id = "main_sceen";
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
+    
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +27,8 @@ class _HomePageState extends State<HomePage> {
           height: 60,
           minWidth: 300,
           color: Colors.red,
-          child: Text("Test connection"),
+          child: Text(
+            "Test connection"),
         ),
       ),
     );
